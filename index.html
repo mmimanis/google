@@ -4,19 +4,28 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+            width: 20%;
+        }
+        .button{
+            width: 100%;
+        }
+        .bar{
+            width: 100%;
         }
     </style>
     <head>
         <title>Google</title>
         <link rel="stylesheet" href="style.css">
     </head>
+    <body>
         <div class="center">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
         <div class="center">
             <form>
-                <input type="text" placeholder="Search..." name="search">
-                <button type="submit">Google Search</button> 
+                <input class="bar" type="text" placeholder="Search..." name="search">
+                <button class="button" type="submit">Google Search</button>
+                <button class="button" type="submit">I'm Feeling Lucky</button>
             </form>
         </div>
     </body>
